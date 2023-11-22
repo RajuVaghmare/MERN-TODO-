@@ -1,0 +1,82 @@
+/* Styling for the entire application container */
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the main heading */
+.heading {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for label elements */
+.label {
+  background-color: whitesmoke;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 3px 0 0 3px;
+  margin-left: 100px;
+}
+
+/* Styling for input elements */
+.input-field {
+  font-weight:500;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Styling for input elements when focused */
+.input-field:focus {
+  border-color: rgb(168, 168, 238);
+  font-size: large;
+  font-weight: 500;
+}
+
+/* Styling for buttons */
+.Add-btn {
+  background-color: green;
+  margin-right: 100px;
+  height: 40px;
+  border-radius: 0 3px 3px 0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styling for the container of displayed items */
+.showItems {
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Styling for paragraphs (.p) */
+.description {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  font-weight: 500;
+  font-size: large;
+  width: 700px;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+/* CSS for the delete button */
+.delete-button {
+  display: flex;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+  padding: 4px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
